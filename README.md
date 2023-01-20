@@ -34,7 +34,7 @@ Specify import fields in the non-included fields.py file.
 Sender = {
 
   "addr": "<The email you created>",
-  "pass": "<The password that was genereated above>", # 16 characters long
+  "pass": "<The password that was generated above>", # 16 characters long
   "serv": "smtp.gmail.com",
   "port": 465
 
@@ -53,5 +53,5 @@ Setup rpimail.py as a cronjob that runs every minute.
 
 - Execute `crontab -e`
 - Choose your editor (1, 2, or 3, ...)
-- Append to the end of the file `* * * * * pyton <path/to/rpimail.py>`
+- Append to the end of the file `* * * * * python <path/to/rpimail.py>`
 
