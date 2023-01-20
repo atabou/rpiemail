@@ -3,7 +3,7 @@
 ## Preliminary
 
 - Create gmail account.
-- Go to `Manage you Google Account > Security`.
+- Go to `Manage your Google Account > Security`.
 - Enable two step `2-Step Verification`.
 - Go to `App passwords` and select `other` from the dropdown.
 - Choose an appropriate name and press `Generate`.
