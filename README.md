@@ -1,4 +1,4 @@
-# rpiemail
+# rpimail
 
 ## Preliminary
 
