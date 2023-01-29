@@ -17,13 +17,15 @@ fp = open(ipfile, "r+")
 
 old_ip = fp.read().split("\n")[0]
 
-if old_ip != ip:
+fp.close() # Close the file to clear its content
 
-    fp.close() # Close the file to clear its content
+if old_ip != ip:
 
     fp = open(ipfile, "w")
 
     fp.write(ip)
+
+    fp.close()
 
     if ip == "":
         ip = "No address found"
