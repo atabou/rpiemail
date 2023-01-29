@@ -13,13 +13,15 @@ def get_ip_address():
 
 ip = get_ip_address()
 
-fp = open(ipfile, "r+")
+fp = open(ipfile, "w+")
 
 old_ip = fp.read().split("\n")[0]
 
 if old_ip != ip:
 
-    fp.seek(0)
+    fp.close() # Close the file to clear its content
+
+    fp = open(ipfile, "w")
 
     fp.write(ip)
 
