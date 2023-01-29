@@ -48,4 +48,3 @@ if old_ip != ip:
     except gaierror:
         print("Insure valid smtp server.")
 
-fp.close()
