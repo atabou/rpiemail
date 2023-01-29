@@ -13,7 +13,7 @@ def get_ip_address():
 
 ip = get_ip_address()
 
-fp = open(ipfile, "w+")
+fp = open(ipfile, "r+")
 
 old_ip = fp.read().split("\n")[0]
 
